@@ -1,0 +1,13 @@
+﻿<SchedulerListView Data=@ComponentModel.Data 
+                   DataStorage=@ComponentModel.GetDataStorage()
+                   AppointmentInserted=@ComponentModel.OnAppointmentInserted
+                   AppointmentUpdated=@ComponentModel.OnAppointmentUpdated
+                   AppointmentRemoved=@ComponentModel.OnAppointmentRemoved
+                   AppointmentInserting=@ComponentModel.OnAppointmentInserting />
+
+@code {
+    public static RenderFragment Create(SchedulerListViewModel componentModel) =>
+    @<SchedulerListViewRenderer ComponentModel=@componentModel />;
+[Parameter]
+public SchedulerListViewModel ComponentModel { get; set; }
+}

@@ -1,0 +1,31 @@
+﻿@using DevExpress.Blazor
+
+
+<DxScheduler StartDate="@DateTime.Today"
+             DataStorage="@DataStorage"
+             AppointmentInserted=@(async (e) => await AppointmentInserted.InvokeAsync(e))
+             AppointmentUpdated=@(async (e) => await AppointmentUpdated.InvokeAsync(e))
+             AppointmentInserting=@(async (e) => await AppointmentInserting.InvokeAsync(e))
+             AppointmentRemoved=@(async (e) => await AppointmentRemoved.InvokeAsync(e))>
+    <DxSchedulerWeekView ShowWorkTimeOnly="false"></DxSchedulerWeekView>
+</DxScheduler>
+
+@code {
+    [Parameter]
+    public IEnumerable<ListEditorScheduler.Module.BusinessObjects.Task> Data { get; set; }
+
+    [Parameter]
+    public DxSchedulerDataStorage DataStorage { get; set; }
+
+    [Parameter]
+    public EventCallback<DxSchedulerAppointmentItem> AppointmentInserted { get; set; }
+
+    [Parameter]
+    public EventCallback<DxSchedulerAppointmentItem> AppointmentUpdated { get; set; }
+
+    [Parameter]
+    public EventCallback<SchedulerAppointmentOperationEventArgs> AppointmentInserting { get; set; }
+
+    [Parameter]
+    public EventCallback<DxSchedulerAppointmentItem> AppointmentRemoved { get; set; }
+};

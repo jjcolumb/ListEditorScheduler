@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListEditorScheduler.Module", "ListEditorScheduler.Module\ListEditorScheduler.Module.csproj", "{5284CF25-07DC-46B4-A02D-C0E54915D9BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListEditorScheduler.Module.Blazor", "ListEditorScheduler.Module.Blazor\ListEditorScheduler.Module.Blazor.csproj", "{4CE680D3-D0B5-4FED-9D06-6A46293C0CD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListEditorScheduler.Blazor.Server", "ListEditorScheduler.Blazor.Server\ListEditorScheduler.Blazor.Server.csproj", "{AD73D0EC-2112-4AFA-A09D-0FD0C8D80901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5284CF25-07DC-46B4-A02D-C0E54915D9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5284CF25-07DC-46B4-A02D-C0E54915D9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5284CF25-07DC-46B4-A02D-C0E54915D9BE}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{5284CF25-07DC-46B4-A02D-C0E54915D9BE}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{5284CF25-07DC-46B4-A02D-C0E54915D9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5284CF25-07DC-46B4-A02D-C0E54915D9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE680D3-D0B5-4FED-9D06-6A46293C0CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE680D3-D0B5-4FED-9D06-6A46293C0CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE680D3-D0B5-4FED-9D06-6A46293C0CD7}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{4CE680D3-D0B5-4FED-9D06-6A46293C0CD7}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{4CE680D3-D0B5-4FED-9D06-6A46293C0CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE680D3-D0B5-4FED-9D06-6A46293C0CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD73D0EC-2112-4AFA-A09D-0FD0C8D80901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD73D0EC-2112-4AFA-A09D-0FD0C8D80901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD73D0EC-2112-4AFA-A09D-0FD0C8D80901}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{AD73D0EC-2112-4AFA-A09D-0FD0C8D80901}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{AD73D0EC-2112-4AFA-A09D-0FD0C8D80901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD73D0EC-2112-4AFA-A09D-0FD0C8D80901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27C46016-0C52-4DAE-AC46-15BFA0B07E3D}
+	EndGlobalSection
+EndGlobal
